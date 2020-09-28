@@ -1,0 +1,116 @@
+body,
+html {
+    height: 100%;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    line-height: 1.5em;
+    margin: 0em;
+    color: white;
+    background-color: #ffffe6;
+    box-sizing: border-box;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-family: 'Teko', sans-serif;
+    color: #d9f2d9;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: #d9f2d9;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+p a {
+    color: #d9f2d9;
+    text-decoration: none;
+}
+
+.haring-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 100px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 40%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6b3ff;
+    padding: 5px;
+    border-radius: 100px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 40%;
+}
+
+.heading {
+    padding: 2%;
+    color: #d9f2d9;
+    font-size: 70px;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.intro-text {
+    background-color: #d9f2d9;
+    padding: 4%;
+    margin: 3%;
+    color: #e6b3ff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.text-section {
+    background-color: #e6b3ff;
+    padding: 20px 45px;
+    margin: 35px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.main,
+.image-one {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d9f2d9;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.main {
+    background-image: ;
+}
+
+.image-one {
+    background-image: ;
+}

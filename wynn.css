@@ -1,0 +1,151 @@
+* {
+    font-family: "Helvetica Neue";
+}
+
+.container {
+    display: flex;
+}
+
+.haring-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    background: red;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 5vw;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.yellow {
+    background: lightgoldenrodyellow;
+    flex-basis: 200px;
+    max-width: 300px;
+    font-size: 2.3vw;
+    padding: 2pc;
+    color: black;
+}
+
+.orange {
+    background: orange;
+    flex-direction: row;
+    display: flex;
+    font-size: 5vw;
+    color: white;
+}
+
+.blue {
+    background: blue;
+    font-size: 2vw;
+    color: white;
+    text-align: left;
+    padding: 2pc;
+}
+
+.white {
+    background: white;
+    flex-basis: 600px;
+}
+
+.container div {
+    flex: 1;
+}
+
+.textstyle {
+    font-size: normal;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.img {
+    width: 50%;
+}
+
+.img-1 {
+    background: url(haringbasquiat.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-2 {
+    background: url(haringchrist.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-3 {
+    background: url(haringnuclearmeltdown.gif) no-repeat center center;
+    background-size: cover;
+}
+
+.img-4 {
+    background: url(haringendofworld.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    height: 50px;
+}
+
+a.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.bouncy {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+    40% {
+        top: 0em
+    }
+    43% {
+        top: -0.9em
+    }
+    46% {
+        top: 0em
+    }
+    48% {
+        top: -0.4em
+    }
+    50% {
+        top: 0em
+    }
+    100% {
+        top: 0em;
+    }
+}
