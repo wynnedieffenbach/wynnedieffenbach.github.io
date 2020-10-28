@@ -6,50 +6,42 @@ body {
     margin: 0;
 }
 
-
-/* Style the header */
-
 .header {
-    background-image: url("logopatterntest.png");
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    align-content: center;
+    padding: 1px;
 }
 
 
-/* Style the top navigation bar */
-
+}
 .topnav {
     overflow: hidden;
     background-color: pink;
     text-align: center;
+    size: 20px;
 }
-
-
-/* Style the topnav links */
-
 .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: black;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
+    size: 20px;
 }
-
-
-/* Change color on hover */
-
 .topnav a:hover {
     background-color: black;
     color: white;
 }
-
 .flex-container {
     display: flex;
     height: 800px;
     background-color: pink;
 }
-
 .flex-container>div {
     background-color: pink;
     width: 50%;
@@ -58,13 +50,11 @@ body {
     line-height: 75px;
     padding: 10px;
 }
-
 .flex-container1 {
     display: flex;
     height: 700px;
     background-color: pink;
 }
-
 .flex-container1>div {
     background-color: pink;
     width: 50%;
@@ -73,27 +63,24 @@ body {
     line-height: 75px;
     padding: 10px;
 }
-
 .importanttextstyling {
     font-family: 'Londrina Outline', cursive;
     font-size: 110px;
     color: white;
     align-content: center;
+    padding: 10px;
 }
-
 .importanttextstyling2 {
     font-family: 'Londrina Outline', cursive;
     font-size: 75px;
     color: black;
 }
-
 .importanttextstyling3 {
     font-family: 'Londrina Outline', cursive;
     font-size: 90px;
     color: white;
     align-content: center;
 }
-
 .importanttextstyling4 {
     font-family: 'Londrina Outline', cursive;
     font-size: 315px;
@@ -102,15 +89,12 @@ body {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
-
 .importanttextstyling5 {
     font-family: 'Londrina Outline', cursive;
     font-size: 60px;
     color: black;
     align-content: center;
-}
-
-
+    padding: 20px;
 }
 .crazybackground {
     background-image: url("2020collage.png");
@@ -142,21 +126,13 @@ body {
 }
 .row {
     display: -ms-flexbox;
-    /* IE10 */
-    
     display: flex;
     -ms-flex-wrap: wrap;
-    /* IE10 */
-    
     flex-wrap: wrap;
     padding: 0 4px;
 }
-
-/* Create four equal columns that sits next to each other */
 .column {
     -ms-flex: 25%;
-    /* IE10 */
-    
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -166,8 +142,6 @@ body {
     vertical-align: middle;
     width: 100%;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
@@ -175,12 +149,40 @@ body {
         max-width: 50%;
     }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
+}
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+.button {
+    background-color: yellowgreen;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.poop {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 25px;
+    color: black;
+    align-content: center;
 }
