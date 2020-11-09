@@ -7,6 +7,9 @@ button {
     border-radius: 250px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(redcheetah.jpg);
+    color: white;
+    font-weight: 900;
 }
 
 button:hover {
@@ -16,4 +19,8 @@ button:hover {
 
 .background {
     background-color: rgb(37, 163, 94);
+}
+
+body {
+    background-image: url(pinkcheetah.jpeg);
 }

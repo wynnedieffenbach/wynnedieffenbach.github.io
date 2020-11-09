@@ -11,10 +11,16 @@ theButton.addEventListener('click', theClick);
 
 function theClick() {
     console.log("click!!!");
-    theButton.style.backgroundColor = "light purple";
+    theButton.style.backgroundImage = "url('bluecheetah.jpg')";
+    theButton.style.outlineColor = "yellow";
+    theButton.style.position = "left";
     theButton.style.fontSize = 100;
-    theButton.style.color = "red";
-    theBody.style.backgroundColor = "orange";
+    theButton.style.border = "yellow";
+    theButton.style.color = "blue";
+    theBody.style.backgroundImage = "url('Cheetahbackground.jpeg')";
+    theBody.style.justifyContent = "space-between";
+    theTxt.style.border = "white";
+
 
 }
 
