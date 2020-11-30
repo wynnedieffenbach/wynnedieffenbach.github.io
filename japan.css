@@ -1,0 +1,35 @@
+.header {
+    background-color: olive;
+    height: 100px;
+}
+
+.fontstyling {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 75px;
+    color: black;
+}
+
+.fontstyling2 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 65px;
+    color: green;
+}
+
+.p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 50px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+}
+
+div {
+    align-self: center;
+    align-content: center;
+}
