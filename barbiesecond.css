@@ -1,0 +1,133 @@
+.flex-container {
+    display: flex wrap;
+}
+
+.flex-container>div {
+    margin: 0px;
+    padding: 35px;
+    font-size: 30px;
+}
+
+.flex-container2 {
+    display: flex wrap;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 200px;
+    background-image: url("yellowgeometric.jpg");
+}
+
+.flex-container2>div {
+    margin: 50px;
+    padding: 35px;
+    font-size: 30px;
+}
+
+.flex-container3 {
+    display: flex wrap;
+    height: 700px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.flex-container3>div {
+    margin: 0px;
+    padding: 35px;
+    font-size: 30px;
+    background-image: url("tealpattern.jpg");
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("yellowgeometric.jpg");
+}
+
+.poop {
+    background-color: rgb(189, 235, 99)
+}
+
+.pee {
+    background-image: url("tealpattern.jpg");
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center2 {
+    text-align: center;
+}
+
+.center3 {
+    align-content: center;
+}
+
+.tangerine {
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+
+.awesomefontstyling {
+    font-family: 'Modak', cursive;
+    font-size: 100px;
+    color: rgb(214, 69, 16);
+    display: center;
+    text-align: center;
+}
+
+.awesomefontstyling2 {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+.awesomefontstyling3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.awesomefontstyling4 {
+    font-family: 'Modak', cursive;
+    font-size: 150px;
+    color: rgb(255, 114, 62);
+    align-content: center;
+    padding-left: 390px;
+    padding-top: 300px;
+}
+
+.button {
+    background-color: plum;
+    border: none;
+    width: 100%;
+    padding: 50px 50px;
+    padding-left: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 50px;
+    font-family: 'Modak', cursive;
+    font-style: darkgoldenrod;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1:hover {
+    background-color: rgb(8, 199, 247);
+    color: white;
+}
+
+.p1 {
+    padding-top: 300px;
+}

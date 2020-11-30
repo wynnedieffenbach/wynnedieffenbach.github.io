@@ -1,0 +1,124 @@
+.flex-container {
+    display: flex;
+    height: 500px;
+    background-color: green;
+}
+
+.flex-container>div {
+    background-color: pink;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    padding: 10px;
+}
+
+.button {
+    background-color: yellowgreen;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.importanttextstyling1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 75px;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+}
+
+#main>article {
+    flex: 1;
+}
+
+#main>nav,
+#main>aside {
+    flex: 0 0 20vw;
+    background: teal;
+}
+
+#main>nav {
+    order: -1;
+}
+
+h1,
+footer,
+nav,
+aside {
+    padding: 1.25em;
+}
+
+h1 {
+    background: yellowgreen;
+    height: 1vh;
+    display: flex;
+}
+
+footer {
+    background: rgb(193, 241, 97);
+    height: 10vh;
+}
+
+article {
+    display: flex;
+    padding: 2em;
+}
+
+image {
+    place-content: center;
+}
+
+.awesomefontstyling {
+    font-family: 'Modak', cursive;
+    font-size: 100px;
+    color: coral;
+    align-content: center;
+}
+
+.awesomefontstyling2 {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+.awesomefontstyling3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -10,20 +10,18 @@ body {
     display: flex;
     justify-content: flex-start;
     background-color: black;
-    padding: 20px;
     text-align: center;
     align-content: center;
     padding: 1px;
 }
 
-
-}
 .topnav {
     overflow: hidden;
     background-color: pink;
     text-align: center;
     size: 20px;
 }
+
 .topnav a {
     float: left;
     display: block;
@@ -33,15 +31,18 @@ body {
     text-decoration: none;
     size: 20px;
 }
+
 .topnav a:hover {
     background-color: black;
     color: white;
 }
+
 .flex-container {
     display: flex;
     height: 800px;
     background-color: pink;
 }
+
 .flex-container>div {
     background-color: pink;
     width: 50%;
@@ -50,11 +51,13 @@ body {
     line-height: 75px;
     padding: 10px;
 }
+
 .flex-container1 {
     display: flex;
     height: 700px;
     background-color: pink;
 }
+
 .flex-container1>div {
     background-color: pink;
     width: 50%;
@@ -63,6 +66,7 @@ body {
     line-height: 75px;
     padding: 10px;
 }
+
 .importanttextstyling {
     font-family: 'Londrina Outline', cursive;
     font-size: 110px;
@@ -70,17 +74,20 @@ body {
     align-content: center;
     padding: 10px;
 }
+
 .importanttextstyling2 {
     font-family: 'Londrina Outline', cursive;
     font-size: 75px;
     color: black;
 }
+
 .importanttextstyling3 {
     font-family: 'Londrina Outline', cursive;
     font-size: 90px;
     color: white;
     align-content: center;
 }
+
 .importanttextstyling4 {
     font-family: 'Londrina Outline', cursive;
     font-size: 315px;
@@ -89,6 +96,7 @@ body {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
+
 .importanttextstyling5 {
     font-family: 'Londrina Outline', cursive;
     font-size: 60px;
@@ -96,34 +104,41 @@ body {
     align-content: center;
     padding: 20px;
 }
+
 .crazybackground {
     background-image: url("2020collage.png");
     height: 400px;
     width: 300px;
 }
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-row: 0px;
     align-items: normal;
 }
+
 .grid img {
     border: 25px solid pink;
     max-width: 100%;
     margin-top: 50px;
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: Arial;
 }
+
 .header {
     text-align: center;
     padding: 5px;
     background-color: pink;
 }
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -131,17 +146,20 @@ body {
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
 .column {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
 }
+
 .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
+
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
@@ -149,6 +167,7 @@ body {
         max-width: 50%;
     }
 }
+
 @media screen and (max-width: 600px) {
     .column {
         -ms-flex: 100%;
@@ -156,11 +175,13 @@ body {
         max-width: 100%;
     }
 }
+
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
     }
 }
+
 .button {
     background-color: yellowgreen;
     border: none;
@@ -176,10 +197,12 @@ body {
     transition-duration: 0.4s;
     border-radius: 8px;
 }
+
 .button:hover {
     background-color: white;
     color: black;
 }
+
 .poop {
     font-family: 'Londrina Outline', cursive;
     font-size: 25px;
