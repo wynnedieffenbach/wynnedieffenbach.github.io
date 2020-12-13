@@ -235,11 +235,15 @@ p1 {
     justify-content: center;
 }
 
+.flex-row>img {
+    flex-basis: 500px;
+}
+
 .flex-rowchild {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    flex-basis: 800px;
 }
 
 .beaches {
