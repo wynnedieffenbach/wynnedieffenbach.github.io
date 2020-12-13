@@ -1,0 +1,68 @@
+<html>
+<title>Final Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="finalstyle.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:wght@800&display=swap" rel="stylesheet">
+<script src="final.js"></script>
+
+<body>
+    <ul>
+        <li><a href="finalhome.html">Home</a></li>
+        <li><a href="finalaboutus.html">About</a></li>
+        <li><a href="finalproduct.html">Shop</a></li>
+        <li><a href="faqfinal.html">FAQ</a></li>
+    </ul>
+
+    <div class="flex-container9">
+        <div>
+            <h3> Need some help?</h3>
+        </div>
+    </div>
+    <button class="accordion">When will I receive my package? </button>
+    <div class="panel">
+        <p>Once you purchase a product from us, a shipping confirmation will be sent to your email within 24 hours. Next, you will be sent a tracking number that contains information about how to track your order. Please note that orders take 5-7 business
+            days to be processed in our warehouse, and then another 5-7 business days to be shipped.</p>
+    </div>
+
+    <button class="accordion"> Are Promise Plant Products Vegan and Gluten Free?</button>
+    <div class="panel">
+        <p>Promise Plant Products was founded upon the idea that no one, human or animal, shouldn't benefit from skincare. All of our products are Vegan and Gluten Free. We put more of what matters into our product, and do not compromise ethics to succeed.
+        </p>
+    </div>
+
+    <button class="accordion">Do you offer discounts or promotions?</button>
+    <div class="panel">
+        <p>Promise Plant Products is honored to offer 15% off to military, first responders, nurses and doctors. Verify with ID.me at checkout. Similarly, Promise Plant Products also donates upwards of 10% of our profits each year to helping displaced indigenous
+            women and children start anew. </p>
+    </div>
+    <div class="flex-container3">
+        <div>
+            <h4>Need more information?</h4>
+            <p1>Let us know and we’ll get back to you before you wash off your Superfood Facewash.</p1>
+            <h4>Contact Us</h4>
+            <p1>Contact us directly at (1) 555-555-5555 Monday - Friday, 9 AM - 5 PM EST</p1>
+        </div>
+
+    </div>
+    <!-- From W3 schools -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,383 @@
+h1 {
+    background-color: rgb(128, 160, 76);
+    padding: 0px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Abril Fatface', cursive;
+    color: #023f1c;
+}
+
+h2 {
+    background-color: rgb(128, 160, 76);
+    padding: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(241, 235, 201, 0.884);
+}
+
+h3 {
+    padding: 15px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+p2 {
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+h4 {
+    padding: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+/* Go back and readjust and make links work */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 32px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+
+/* From W3 Schools */
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: grey;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: rgb(128, 160, 76);
+    flex-direction: row;
+    font-family: 'Abril Fatface', cursive;
+    flex-grow: 1;
+}
+
+.flex-container2>div {
+    background-color: rgb(128, 160, 76);
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: rgb(128, 160, 76);
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.flex-container1>div {
+    background-color: rgb(128, 160, 76);
+    font-size: 40px;
+    flex-grow: 1;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: 'Abril Fatface', cursive;
+    color: #015a26;
+    padding-bottom: 50px;
+}
+
+.flex-container3>div {
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+.rf_image {
+    background-image: url("rf_bg.png");
+    background-size: cover;
+    flex-basis: 1000px;
+}
+
+.fw_image {
+    background-image: url("how\ to\ use\ face\ wash.png");
+    background-size: cover;
+    flex-basis: 1150px;
+}
+
+.nh_image {
+    background-image: url("needsomehelp.png");
+    background-size: cover;
+    flex-basis: 1000px;
+}
+
+.flex-container4 {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    padding: 90px;
+}
+
+.flex-container4>div {
+    background-color: white;
+    margin: 10px;
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    flex-grow: 2;
+}
+
+p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.flex-container5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container6>div {
+    justify-content: center;
+    flex: 1 1 auto;
+    padding-left: 3em;
+    align-items: center;
+}
+
+.flex-container7 {
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+    font-family: 'Abril Fatface', cursive;
+    flex-grow: 1;
+}
+
+.flex-container7>div {
+    background-color: wheat;
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container8 {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container8>div {
+    background-color: white;
+    font-size: 40px;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container9 {
+    display: flex;
+    background-color: white;
+    background-image: url("faqplants.jpg");
+    flex-direction: column;
+    align-items: stretch;
+    font-family: 'Abril Fatface', cursive;
+    color: #015a26;
+    padding-bottom: 50px;
+}
+
+.flex-container9>div {
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-rowchild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.beaches {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    color: #015a26;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.santa {
+    padding: 200px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.rachel {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.price {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.product {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.benefits {
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.buythis {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.button {
+    transition-duration: 0.4s;
+    background-color: #51aa54;
+    border: none;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/* From W3 Schools */
+
+.button:hover {
+    background-color: rgb(47, 99, 36);
+    color: white;
+}
+
+.dobby {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.dobby img {
+    width: auto;
+    height: auto;
+}
+
+.dobby .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 30px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dobby .btn:hover {
+    background-color: white;
+    color: white;
+}
+
+.accordion {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    cursor: pointer;
+    padding-left: 30px;
+    width: 100%;
+    border: white;
+    text-align: left;
+    outline: none;
+    font-size: 60px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: black;
+}
+
+.panel {
+    padding: 0 30px;
+    display: none;
+    background-color: rgb(128, 160, 76);
+    overflow: hidden;
+    font-size: 40px;
+}
