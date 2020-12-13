@@ -129,9 +129,10 @@ li a:hover:not(.active) {
 
 .fw_image {
     background-image: url("how\ to\ use\ face\ wash.png");
-    background-size: cover;
-    flex-basis: 1150px;
-    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-basis: 900px;
+    background-position: center;
 }
 
 .nh_image {
