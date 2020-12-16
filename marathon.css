@@ -49,7 +49,7 @@ ul {
     margin: 0;
     padding: 15;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(189, 37, 62);
 }
 
 li {
@@ -58,7 +58,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(212, 132, 139);
     text-align: center;
     padding: 30px 32px;
     text-decoration: none;
@@ -111,7 +111,7 @@ li a:hover:not(.active) {
     flex-direction: column;
     align-items: stretch;
     font-family: 'Abril Fatface', cursive;
-    color: pink;
+    color: rgb(223, 30, 62);
     padding-bottom: 50px;
 }
 
@@ -400,7 +400,7 @@ body {
 .header {
     display: flex;
     justify-content: flex-start;
-    background-color: black;
+    background-color: rgb(226, 71, 149);
     text-align: center;
     align-content: center;
     padding: 1px;
@@ -416,7 +416,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(129, 16, 73);
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
@@ -424,7 +424,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: black;
+    background-color: rgb(226, 71, 149);
     color: white;
 }
 
@@ -493,7 +493,6 @@ body {
     font-size: 60px;
     color: black;
     align-content: center;
-    padding: 20px;
 }
 
 .importanttextstyling6 {
@@ -501,7 +500,7 @@ body {
     font-size: 60px;
     color: black;
     align-content: center;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .crazybackground {
